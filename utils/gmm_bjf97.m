@@ -4,17 +4,12 @@ function [sa, sigma] = gmm_bjf97(M, R, T, Fault_Type, Vs)
 % Stanford University
 % bakerjw@stanford.edu
 %
-% Modified 6/21/2016 to add optional sigmaFactor input
-%
 % Make median and standard deviation predictions using the following model:
 %
-% Boore, D. M., Joyner, W. B., and Fumal, T. E. (1997). ?Equations for 
+% Boore, D. M., Joyner, W. B., and Fumal, T. E. (1997). ``Equations for 
 % Estimating Horizontal Response Spectra and Peak Acceleration from 
-% Western North American Earthquakes: A Summary of Recent Work.? 
+% Western North American Earthquakes: A Summary of Recent Work.'' 
 % Seismological Research Letters, 68(1), 128?153.
-%
-% This script includes standard deviations for either
-% arbitrary or average components of ground motion 
 %
 % This script has also been modified to correct an error in the original
 % publication. See Boore, DM (2005). "Erratum: Equations for Estimating
